@@ -1,5 +1,7 @@
-INSERT INTO supportapp (id_supportapp, name) VALUES (default, 'USA');
-INSERT INTO supportapp (id_supportapp, name) VALUES (default, 'France');
-INSERT INTO supportapp (id_supportapp, name) VALUES (default, 'Ucrania');
-INSERT INTO supportapp (id_supportapp, name) VALUES (default, 'Italy');
-INSERT INTO supportapp (id_supportapp, name) VALUES (default, 'Canada');
+
+INSERT INTO requests (id_request, name) VALUES (default, 'First Interview');
+INSERT INTO requests (id_request, name) VALUES (default, 'Second interview');
+INSERT INTO requests (id_request, name) VALUES (default, 'Treatment');
+INSERT INTO requests (id_request, name) VALUES (default, 'Depression');
+INSERT INTO requests (id_request, name) VALUES (default, 'Anxiety');
+INSERT INTO requests (id_request, name) VALUES (default, 'Other queries');

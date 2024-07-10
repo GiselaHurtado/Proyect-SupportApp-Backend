@@ -8,12 +8,12 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "supportapps")
+@Table(name = "requests")
 public class SupportApp {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_supportapp")
+    @Column(name = "id_request")
     private Long id;
 
     private String name;
