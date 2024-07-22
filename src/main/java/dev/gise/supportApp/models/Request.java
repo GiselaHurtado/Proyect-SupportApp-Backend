@@ -34,7 +34,7 @@ public class Request {
     private String request;
 
     public Request() {
-        
+    
     }
 
     public Request(Long id, Date date, String firstName, String lastName, String titleRequest, String request) {
@@ -92,5 +92,7 @@ public class Request {
 
     public void setRequest(String request) {
         this.request = request;
+
+        
     }
 }

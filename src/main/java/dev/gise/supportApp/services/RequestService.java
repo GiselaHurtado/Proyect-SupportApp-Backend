@@ -1,11 +1,7 @@
 package dev.gise.supportApp.services;
-
 import java.util.List;
-import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import dev.gise.supportApp.models.Request;
 import dev.gise.supportApp.repositories.RequestRepository;
 
