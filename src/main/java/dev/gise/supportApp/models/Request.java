@@ -19,7 +19,7 @@ public class Request {
     private Long id;
 
     @Column(name = "date_request")
-    private Date date;
+    private Date dateRequest;
 
     @Column(name = "first_name")
     private String firstName;
@@ -31,19 +31,19 @@ public class Request {
     private String titleRequest;
 
     @Column(name = "request_content")
-    private String request;
+    private String requestContent;
 
     public Request() {
     
     }
 
-    public Request(Long id, Date date, String firstName, String lastName, String titleRequest, String request) {
+    public Request(Long id, Date dateRequest, String firstName, String lastName, String titleRequest, String requestContent) {
         this.id = id;
-        this.date = date;
+        this.dateRequest = dateRequest;
         this.firstName = firstName;
         this.lastName = lastName;
         this.titleRequest = titleRequest;
-        this.request = request;
+        this.requestContent = requestContent;
     }
 
     public Long getId() {
@@ -54,12 +54,12 @@ public class Request {
         this.id = id;
     }
 
-    public Date getDate() {
-        return date;
+    public Date getDateRequest() {
+        return dateRequest;
     }
 
-    public void setDate(Date date) {
-        this.date = date;
+    public void setDateRequest(Date dateRequest) {
+        this.dateRequest = dateRequest;
     }
 
     public String getFirstName() {
@@ -86,12 +86,12 @@ public class Request {
         this.titleRequest = titleRequest;
     }
 
-    public String getRequest() {
-        return request;
+    public String getRequestContent() {
+        return requestContent;
     }
 
-    public void setRequest(String request) {
-        this.request = request;
+    public void setRequestContent(String requestContent) {
+        this.requestContent = requestContent;
 
         
     }

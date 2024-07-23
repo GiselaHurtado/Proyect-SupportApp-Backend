@@ -5,3 +5,9 @@ INSERT INTO requests (date_request, first_name, last_name, title_request, reques
 INSERT INTO requests (date_request, first_name, last_name, title_request, request_content) VALUES ('2024-01-03', 'Alice', 'Smith', 'Anxiety', 'Counseling session on anxiety');
 INSERT INTO requests (date_request, first_name, last_name, title_request, request_content) VALUES ('2024-01-04', 'Bob', 'Brown', 'Stress', 'Stress management workshop');
 INSERT INTO requests (date_request, first_name, last_name, title_request, request_content) VALUES ('2024-01-05', 'Charlie', 'Johnson', 'Others', 'Miscellaneous request');
+INSERT INTO requests (date_request, first_name, last_name, title_request, request_content) VALUES ('2024-01-04', 'Bob', 'Brown', 'Stress', 'Stress management workshop');
+INSERT INTO requests (date_request, first_name, last_name, title_request, request_content) VALUES ('2024-01-05', 'Charlie', 'Johnson', 'Others', 'Miscellaneous request');
+INSERT INTO requests (date_request, first_name, last_name, title_request, request_content) VALUES ('2024-01-04', 'Bob', 'Brown', 'Stress', 'Stress management workshop');
+INSERT INTO requests (date_request, first_name, last_name, title_request, request_content) VALUES ('2024-01-05', 'Charlie', 'Johnson', 'Others', 'Miscellaneous request');
+INSERT INTO requests (date_request, first_name, last_name, title_request, request_content) VALUES ('2024-01-04', 'Bob', 'Brown', 'Stress', 'Stress management workshop');
+INSERT INTO requests (date_request, first_name, last_name, title_request, request_content) VALUES ('2024-01-05', 'Charlie', 'Johnson', 'Others', 'Miscellaneous request');
