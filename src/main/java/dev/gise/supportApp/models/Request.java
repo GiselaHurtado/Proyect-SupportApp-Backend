@@ -1,6 +1,6 @@
 package dev.gise.supportApp.models;
 
-import java.sql.Date;
+import java.time.LocalDate;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -19,7 +19,7 @@ public class Request {
     private Long id;
 
     @Column(name = "date_request")
-    private Date dateRequest;
+    private LocalDate dateRequest;
 
     @Column(name = "first_name")
     private String firstName;
@@ -37,7 +37,7 @@ public class Request {
     
     }
 
-    public Request(Long id, Date dateRequest, String firstName, String lastName, String titleRequest, String requestContent) {
+    public Request(Long id, LocalDate dateRequest, String firstName, String lastName, String titleRequest, String requestContent) {
         this.id = id;
         this.dateRequest = dateRequest;
         this.firstName = firstName;
@@ -54,11 +54,11 @@ public class Request {
         this.id = id;
     }
 
-    public Date getDateRequest() {
+    public LocalDate getDateRequest() {
         return dateRequest;
     }
 
-    public void setDateRequest(Date dateRequest) {
+    public void setDateRequest(LocalDate dateRequest) {
         this.dateRequest = dateRequest;
     }
 

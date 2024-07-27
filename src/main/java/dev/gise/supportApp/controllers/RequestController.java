@@ -21,8 +21,8 @@ public class RequestController {
         this.requestService = requestService;
     }
 
-    @GetMapping
-    public ResponseEntity<List<Request>> listAllRequests() {
+    @GetMapping("/all")
+    public ResponseEntity<List<Request>> getAllRequests() {
         List<Request> requests = requestService.getAllRequests();
         return ResponseEntity.ok(requests);
     }
