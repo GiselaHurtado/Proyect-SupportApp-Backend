@@ -132,6 +132,6 @@ This project has no active licence 🧑‍⚖️.
 [Gisela Hurtado](http://https://www.linkedin.com/in/gisela-hurtado-ela11ian/ "Linkedin")
 
 ## 🔗 Project Links: 
-- Frontend: [https://github.com/FactoriaF5-Asturias/Proyect-SupportApp-Frontend2](https://github.com/FactoriaF5-Asturias/Proyect-SupportApp-Frontend2)
+- Frontend: https://github.com/GiselaHurtado/Proyect-SupportApp-Frontend.git
 - Backend: [https://github.com/GiselaHurtado/Proyect-SupportApp-Backend](https://github.com/GiselaHurtado/Proyect-SupportApp-Backend)
 
